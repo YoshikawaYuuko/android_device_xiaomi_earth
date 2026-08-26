@@ -14,6 +14,12 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+SURFACE_FLINGER_BOOST := false
+WITH_GMS := false
+TARGET_ENABLE_BLUR := false
+TARGET_DISABLE_MATLOG := true
+USE_DEFAULT_VULKAN := false
+
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
