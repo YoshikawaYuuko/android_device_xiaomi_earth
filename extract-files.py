@@ -38,7 +38,7 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'system_ext/priv-app/ImsService/ImsService.apk': blob_fixup()
-        .apktool_patch('blob-patches/ImsService.patch', '-r'),
+        .apktool_patch('blob-patches/ImsService.patch'),
     'system_ext/lib64/libsink.so': blob_fixup()
         .add_needed('libaudioclient_shim.so'),
     'system_ext/lib64/libsource.so': blob_fixup()
