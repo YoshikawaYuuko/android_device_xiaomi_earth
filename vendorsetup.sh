@@ -2,7 +2,7 @@ echo "Cloning Stuffs Needed For Earth"
 
 # Other earth stuffs
 git clone https://github.com/YoshikawaYuuko/vendor_xiaomi_earth.git -b 17.0 vendor/xiaomi/earth
-git clone https://github.com/YoshikawaYuuko/kernel_xiaomi_earth.git -b lineage-24.0 kernel/xiaomi/earth --depth=1
+git clone https://github.com/YoshikawaYuuko/kernel_xiaomi_earth.git -b lineage-23.2 kernel/xiaomi/earth --depth=1
 git clone https://github.com/YoshikawaYuuko/fortissimo.git -b keys vendor/lineage-priv/keys
 
 # Hardware Repos
